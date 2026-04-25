@@ -20,9 +20,11 @@ Utilized the Cloudgroq API (LPU-powered) to ensure sub-second response times, de
 3. Human-Centered Design (HCD)
 Focused on Explainable AI (XAI) principles by managing complex asynchronous states in React, providing clear feedback to the user during the AI "thinking" cycle.
 ## Technical Stack
- 
+
+| Layer    |   Technology     |         Purpose                 |
 |----------|------------------|---------------------------------|
 | Frontend |  React.js        | Dynamic UI & State Management   |
 | Backend  |Node.js/Express   | Logic Orchestration & Middleware|
 | AI Engine|Cloudgroq/Llama 3 |  High-Speed LLM Inference       |
 | Security | Dotenv/Middleware|  API Key & Input Governance     |
+|----------|------------------|---------------------------------|
